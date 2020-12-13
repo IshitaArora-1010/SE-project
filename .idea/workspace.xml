@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="" />
+    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/migrations/0009_help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/help.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +23,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SE-project-main/web/static/css/style.css" root0="SKIP_INSPECTION" />
   </component>
@@ -22,16 +39,21 @@
     <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1lTfbM07nHP1MeRYR8pbp6zPGaQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eshopdjango-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.orders.html">
@@ -77,10 +99,36 @@
       <workItem from="1607626073260" duration="1026000" />
       <workItem from="1607627597519" duration="3765000" />
       <workItem from="1607679542355" duration="49565000" />
+      <workItem from="1607880801293" duration="604000" />
+      <workItem from="1607941705292" duration="6622000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1607945385889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607945385889</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

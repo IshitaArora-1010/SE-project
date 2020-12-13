@@ -6,7 +6,7 @@ from .views.products import Products
 from .views.cart import Cart
 from .views.checkout import CheckOut
 from .views.orders import OrderView
-from .views.help import Help
+from .views.help import HelpView
 from .views.contact import Contact
 from .middlewares.auth import auth_middleware
 
@@ -19,6 +19,6 @@ urlpatterns = [
     path('cart/', auth_middleware(Cart.as_view()) , name='cart'),
     path('check-out/', CheckOut.as_view() , name='checkout'),
     path('orders/', auth_middleware(OrderView.as_view()), name='orders'),
-    path('help/', Help, name='help'),
+    path('help/', HelpView.as_view(), name='help'),
     path('contact/', Contact, name='contact'),
 ]
