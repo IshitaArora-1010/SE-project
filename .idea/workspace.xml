@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="cart error solved">
+      <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
