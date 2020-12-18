@@ -9,6 +9,8 @@ from .views.orders import OrderView
 from .views.help import HelpView
 from .views.contact import Contact
 from .middlewares.auth import auth_middleware
+from .views.terms import Terms
+from .views.privacy import Privacy
 
 urlpatterns = [
     path('', index,  name='homepage'),
@@ -21,4 +23,6 @@ urlpatterns = [
     path('orders/', auth_middleware(OrderView.as_view()), name='orders'),
     path('help/', HelpView.as_view(), name='help'),
     path('contact/', Contact, name='contact'),
+    path('privacy/', Privacy, name='privacy'),
+    path('terms/', Terms, name='terms'),
 ]

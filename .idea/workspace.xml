@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="cart error solved">
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/migrations/0010_auto_20201218_2349.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/views/privacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/views/terms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
@@ -28,6 +48,11 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="IshitaArora-1010" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="SE-project-main" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SE-project-main/web/static/css/style.css" root0="SKIP_INSPECTION" />

@@ -7,6 +7,8 @@ from store.models.orders import Order
 
 class CheckOut(View):
     def post(self, request):
+        name = request.POST.get('name')
+        email = request.POST.get('email')
         address = request.POST.get('address')
         phone = request.POST.get('phone')
         customer = request.session.get('customer')
@@ -21,6 +23,8 @@ class CheckOut(View):
                           price=product.price,
                           address=address,
                           phone=phone,
+                          name = name,
+                          email=email,
                           quantity=cart.get(str(product.id)))
             order.save()
         request.session['cart'] = {}
