@@ -23,7 +23,7 @@ class CheckOut(View):
                           price=product.price,
                           address=address,
                           phone=phone,
-                          name = name,
+                          name=name,
                           email=email,
                           quantity=cart.get(str(product.id)))
             order.save()
