@@ -47,6 +47,7 @@ class Signup(View):
             return render(request, 'register.html', data)
 
     def validateCustomer(self, customer):
+        SpecialSym = ['$', '@', '#', '%']
         error_message = None
         if not customer.first_name:
             error_message = "First Name Required !!"
@@ -62,10 +63,18 @@ class Signup(View):
             error_message = 'Phone Number must be 10 char Long'
         elif len(customer.password) < 6:
             error_message = 'Password must be 6 char long'
+        elif not any(char.isupper() for char in customer.password):
+            error_message = 'Password must contain at least one uppercase letter'
+        elif not any(char.islower() for char in customer.password):
+            error_message = 'Password must contain at least one lowercase letter'
+        elif not any(char.isdigit() for char in customer.password):
+            error_message = 'Password must contain at least one digit'
+        elif not any(char in SpecialSym for char in customer.password):
+            error_message = 'Password must contain at least one special character($@#%)'
         elif len(customer.email) < 5:
             error_message = 'Email must be 5 char long'
         elif customer.isExists():
-            error_message = 'Email Address Already Registered..'
+            error_message = 'Email Address Already Registered.'
         # saving
 
         return error_message
