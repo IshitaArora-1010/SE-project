@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load cart %}
+
+    <form action="/check-out/" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="">Name</label>
+          <input type="text" name="name" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+            <label for="">Phone</label>
+            <input type="text" name="phone" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="">Address</label>
+          <input type="text" name="address" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="">Email</label>
+          <input type="text" name="email" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="">Amount</label>
+          <input type="text" name="email" id="" class="form-control" placeholder={{products|total_cart_price:request.session.cart}} aria-describedby="helpId">
+        </div>
+        <div id="paypal-button-container"></div>
+
+    <!-- Include the PayPal JavaScript SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AQCRQrKRKaU7a-KEv1qt-tjAfcP2bRTiV5dTFrE_ib07H9rVDI69Ya3-QShOZ8x8gJGg1ErZjFxg76LY&currency=USD"></script>
+
+    <script>
+        // Render the PayPal button into #paypal-button-container
+        paypal.Buttons({
+
+            // Set up the transaction
+            createOrder: function(data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: {{products|total_cart_price:request.session.cart}}
+                        }
+                    }]
+                });
+            },
+
+            // Finalize the transaction
+            onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                    // Show a success message to the buyer
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                });
+            }
+
+
+        }).render('#paypal-button-container');
+    </script>
+
+          <input type="submit" class="btn float-right btn-outline-info col-lg-6" value="Place Order">
+    </form>
+
+{% endblock %}
