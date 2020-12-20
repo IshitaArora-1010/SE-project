@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Latest update">
-      <change afterPath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_15_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_15_18__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
