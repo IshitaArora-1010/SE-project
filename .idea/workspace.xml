@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Latest update">
-      <change afterPath="$PROJECT_DIR$/SE-project-main/store/migrations/0011_order_total_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/migrations/0012_auto_20201220_1725.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/migrations/0013_remove_order_total_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/templates/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/views/payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/r1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/r2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/r3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/r4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -59,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eshopdjango-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.cart">
@@ -134,6 +146,7 @@
       <workItem from="1608376137527" duration="2192000" />
       <workItem from="1608386572863" duration="5907000" />
       <workItem from="1608398821343" duration="5360000" />
+      <workItem from="1608475638995" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607945385889</created>
@@ -184,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608454945213</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Latest update">
+      <created>1608458475534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608458475534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,93 @@
+  {% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+{% load cart %}
+<!-- banner-2 -->
+	 <img src={% static "images/img1.png" %}/>
+	<!-- //banner-2 -->
+	<!-- page -->
+	<div class="services-breadcrumb">
+		<div class="agile_inner_breadcrumb">
+			<div class="container">
+				<ul class="w3_short">
+					<li>
+						<a href="/">Home</a>
+						<i>|</i>
+					</li>
+					<li>Payment</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+   <div class="faqs-w3l py-sm-5 py-4">
+		<div class="container py-xl-4 py-lg-2">
+			<!-- tittle heading -->
+            <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3 pt-3">
+                <span>P</span>ayment
+            </h3>
+            <!-- //tittle heading -->
+                <div class="pb-4">
+                    <h3 class="w3-head">Choose the payment method to place order and proceed to checkout</h3>
+                </div>
+                <div class="pb-3 pt-3">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-info border rounded col-lg-3">Cash on Delivery</a>
+                </div>
+                <div class="pb-3 pt-3">
+                    <div id="paypal-button-container"></div>
+                </div>
+                <div class="pb-3 pt-3">
+                    <a href="/check-out" class="btn btn-outline-info border rounded col-lg-3">Proceed to Checkout</a>
+                </div>
+
+   <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cash on delivery selected!
+          </h5>
+          <hr>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="m-2 p-3">
+           <label for="">Click on proceed to enter delivery details</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+               <!-- Include the PayPal JavaScript SDK -->
+                    <script src="https://www.paypal.com/sdk/js?client-id=AQCRQrKRKaU7a-KEv1qt-tjAfcP2bRTiV5dTFrE_ib07H9rVDI69Ya3-QShOZ8x8gJGg1ErZjFxg76LY&currency=USD"></script>
+
+                    <script>
+                        // Render the PayPal button into #paypal-button-container
+                        paypal.Buttons({
+
+                            // Set up the transaction
+                            createOrder: function(data, actions) {
+                                return actions.order.create({
+                                    purchase_units: [{
+                                        amount: {
+                                            value: {{products|total_cart_price:request.session.cart}}
+                                        }
+                                    }]
+                                });
+                            },
+
+                            // Finalize the transaction
+                            onApprove: function(data, actions) {
+                                return actions.order.capture().then(function(details) {
+                                    // Show a success message to the buyer
+                                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                                });
+                            }
+                        }).render('#paypal-button-container');
+                    </script>
+        </div>
+   </div>
+{% endblock %}

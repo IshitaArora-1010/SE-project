@@ -11,6 +11,7 @@ from .views.contact import Contact
 from .middlewares.auth import auth_middleware
 from .views.terms import Terms
 from .views.privacy import Privacy
+from .views.payment import Payment
 
 urlpatterns = [
     path('', index,  name='homepage'),
@@ -20,6 +21,7 @@ urlpatterns = [
     path('logout/', logout, name='logout'),
     path('cart/', auth_middleware(Cart.as_view()) , name='cart'),
     path('check-out/', CheckOut.as_view() , name='checkout'),
+    path('payment/', Payment, name='payment'),
     path('orders/', auth_middleware(OrderView.as_view()), name='orders'),
     path('help/', HelpView.as_view(), name='help'),
     path('contact/', Contact, name='contact'),
