@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Checkout solved">
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/c_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/c_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/c_2_iBtb3Sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/c_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/c_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/h1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/h2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/h3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/i_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/j1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/j2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/k1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/k2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/k3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/k4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/m_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/m_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/m_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/m_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/s4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/w_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/w_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/w_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/w_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/wp_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE-project-main/uploads/products/wp_2.png" afterDir="false" />
+    <list default="true" id="ed78012a-5987-40d9-b928-7c47109bee3c" name="Default Changelist" comment="Latest update">
+      <change afterPath="$PROJECT_DIR$/SE-project-main/store/templates/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_14_22__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_15_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-12-2020_15_18__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SE-project-main/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/products1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templatetags/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templatetags/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/models/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-project-main/store/views/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/SE-project-main/store/views/orders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eshopdjango-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.cart">
@@ -170,7 +138,6 @@
       <workItem from="1608376137527" duration="2192000" />
       <workItem from="1608386572863" duration="5907000" />
       <workItem from="1608398821343" duration="5360000" />
-      <workItem from="1608475638995" duration="8589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607945385889</created>
@@ -214,28 +181,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608373976984</updated>
     </task>
-    <task id="LOCAL-00007" summary="Latest update">
-      <created>1608454945213</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608454945213</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Latest update">
-      <created>1608458475534</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608458475534</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Checkout solved">
-      <created>1608478284072</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608478284072</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,8 +203,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Latest update" />
-    <MESSAGE value="Checkout solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Latest update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SE_project_main$cart.coverage" NAME="cart Coverage Results" MODIFIED="1608278600694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SE-project-main/store/templatetags" />

@@ -1,4 +1,5 @@
 from django.urls import path
+from django.conf.urls import include
 from .views.home import index
 from .views.register import Signup
 from .views.login import Login, logout
@@ -27,4 +28,5 @@ urlpatterns = [
     path('contact/', Contact, name='contact'),
     path('privacy/', Privacy, name='privacy'),
     path('terms/', Terms, name='terms'),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
 ]

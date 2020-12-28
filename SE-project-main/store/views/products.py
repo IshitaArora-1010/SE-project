@@ -36,7 +36,7 @@ class Products(View):
         cart = request.session.get('cart')
         if not cart:
             request.session.cart = {}
-            # request.session['cart'] = {}
+            #request.session['cart'] = {}
         products = None
         categories = Category.get_all_categories()
         categoryID = request.GET.get('category')
