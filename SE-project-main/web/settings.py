@@ -25,10 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    'web',
-    'store.apps.StoreConfig',
     'ckeditor',
+    'web',
+    'store.apps.StoreConfig'
 ]
 
 MIDDLEWARE = [
@@ -115,8 +114,7 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_URL = "/image/id/"
-MEDIA_ROOT = BASE_DIR
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'wt/static/image/id/')
 #...
 SITE_ID = 1
 
@@ -126,7 +124,7 @@ SITE_ID = 1
 
 CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'
 
-CKEDITOR_UPLOAD_PATH = 'uploads/products/'
+CKEDITOR_UPLOAD_PATH = 'uploads/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
 
 CKEDITOR_CONFIGS = {

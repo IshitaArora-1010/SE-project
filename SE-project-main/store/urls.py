@@ -4,6 +4,7 @@ from .views.home import index
 from .views.register import Signup
 from .views.login import Login, logout
 from .views.products import Products
+from .views.product_desp import product_detail
 from .views.cart import Cart
 from .views.checkout import CheckOut
 from .views.orders import OrderView
@@ -28,5 +29,6 @@ urlpatterns = [
     path('contact/', Contact, name='contact'),
     path('privacy/', Privacy, name='privacy'),
     path('terms/', Terms, name='terms'),
+    path('description/', product_detail, name='product details'),
     path('ckeditor/', include('ckeditor_uploader.urls')),
 ]

@@ -1,4 +1,5 @@
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
+
 from django.shortcuts import render, redirect
 from store.models.product import Product
 from store.models.category import Category
@@ -9,6 +10,7 @@ class Products(View):
 
     def post(self, request):
         product = request.POST.get('product')
+        print(product)
         remove = request.POST.get('remove')
         cart = request.session.get('cart')
         if cart:
@@ -36,7 +38,7 @@ class Products(View):
         cart = request.session.get('cart')
         if not cart:
             request.session.cart = {}
-            #request.session['cart'] = {}
+            # request.session['cart'] = {}
         products = None
         categories = Category.get_all_categories()
         categoryID = request.GET.get('category')
@@ -48,6 +50,9 @@ class Products(View):
         data = {}
         data['products'] = products
         data['categories'] = categories
-
+        print(data)
         print('you are : ', request.session.get('email'))
         return render(request, 'products1.html', data)
+
+
+

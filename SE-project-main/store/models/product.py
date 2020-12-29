@@ -1,12 +1,16 @@
 from django.db import models
 from .category import Category
+from ckeditor.fields import RichTextField
 from ckeditor_uploader.fields import RichTextUploadingField
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
     price = models.IntegerField(default=0)
+    saleprice = models.IntegerField(default=0)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
-    description = RichTextUploadingField()
+    description = RichTextUploadingField(default='SOME STRING')
+    brand = RichTextUploadingField(default='SOME STRING')
+    dimensions = models.CharField(max_length=50, default='SOME STRING')
     image = models.ImageField(upload_to='uploads/products/')
 
     @staticmethod
