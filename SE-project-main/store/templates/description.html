@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load cart %}
+{% load custom_filter %}
 {% load static %}
 {% block content %}
 
@@ -16,10 +18,10 @@
 				<div class="col-lg-5 col-md-8 single-right-left ">
 					<div class="grid images_3_of_2">
 						<div class="flexslider">
-							<ul class="slides">
-								<li data-thumb="images/si1.jpg">
+							<ul class="slides" id={{product.id}}>
+								<li data-thumb={{product.image.url}}>
 									<div class="thumb-image">
-										<img src="images/si1.jpg" data-imagezoom="true" class="img-fluid" alt=""> </div>
+										<img src={{product.image.url}} data-imagezoom="true" class="img-fluid" alt=""> </div>
 								</li>
 								<li data-thumb="images/si2.jpg">
 									<div class="thumb-image">
@@ -36,9 +38,9 @@
 				</div>
 
 				<div class="col-lg-7 single-right-left simpleCart_shelfItem" id = 'product'>
-					<h3 class="mb-3">Hello</h3>
+					<h3 class="mb-3">{{product.name}}</h3>
 					<p class="mb-3">
-						<span class="item_price">$200.00</span>
+						<span class="item_price">{{product.price|currency}}</span>
 						<del class="mx-2 font-weight-light">$280.00</del>
 						<label>Free delivery</label>
 					</p>
@@ -83,27 +85,9 @@
 							<i class="fas fa-retweet mr-3"></i>Net banking & Credit/ Debit/ ATM card
 						</p>
 					</div>
-					<!--<div class="occasion-cart">
-						<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-							<form action="#" method="post">
-								<fieldset>
-									<input type="hidden" name="cmd" value="_cart" />
-									<input type="hidden" name="add" value="1" />
-									<input type="hidden" name="business" value=" " />
-									<input type="hidden" name="item_name" value="Samsung Galaxy J7 Prime" />
-									<input type="hidden" name="amount" value="200.00" />
-									<input type="hidden" name="discount_amount" value="1.00" />
-									<input type="hidden" name="currency_code" value="USD" />
-									<input type="hidden" name="return" value=" " />
-									<input type="hidden" name="cancel_return" value=" " />
-									<input type="submit" name="submit" value="Add to cart" class="button" />
-								</fieldset>
-							</form>
-						</div>
-					</div>--!>
+					
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //Single Page -->
 {% endblock %}
